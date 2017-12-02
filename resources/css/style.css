@@ -1,0 +1,421 @@
+@media only screen and (min-width:1025px){
+html, body{
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+body{
+  width: 100%;
+  height: 100%;
+  line-height: 1.4rem;
+}
+.container{
+  max-width: 960px;
+}
+.header{
+  display: flex;
+  background: url("../images/glasses-bg_desktop.png")no-repeat;
+  height: 31rem;
+  width: 100%;
+  padding-top: 1rem;
+  justify-content: center;
+}
+.head{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: cadetblue;
+  color:white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  height: 3rem;
+  width: 80%;
+}
+.logo{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.head_left img,.head_left h2{
+  display: inline-block;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  padding-right: 2rem;
+}
+.head_text{
+  background-color:  white;
+  top: 14rem;
+  right: 8rem;
+  position: absolute;
+}
+.text_h1{
+  display: block;
+  background-color:  white;
+  justify-content: space-around;
+  color: black;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+}
+.imgs{
+  display:flex;
+  justify-content:center;
+  height: 8rem;
+  padding-bottom: 3rem;
+  padding-left: 8rem;
+}
+.img1{
+  width:3.5rem;
+}
+.img2,.img3{
+  width:5rem;
+  padding-left: 8rem;
+}
+.img2 span,.img3 span{
+  padding-left: 3.25rem;
+}
+span{
+  display: flex;
+  text-align: center;
+  font-family: Helvetica;
+}
+.text{
+  display:flex;
+  justify-content:center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+.philosophy{
+  padding-left: 15rem;
+}
+.appointments{
+  padding-left: 5%;
+  width: 100%;
+}
+h2{
+  display: flex;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 1.25rem 0.5rem 1rem 0.5rem;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+p{
+  padding-top: 1rem;
+}
+
+.footer{
+  height: 10rem;
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0rem 7rem;
+}
+.foot{
+  display: flex;
+  text-align: left;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-family: Helvetica;
+}
+.logo1{
+  height: 1.5rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 4rem;
+}
+
+.head_mobile,.head_right_mobile,.head_left_mobile,.foot_mobile{
+  display: none;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width:1024px){
+  html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+  }
+  body{
+    width: 100%;
+    height: 100%;
+    line-height: 1.4rem;
+  }
+  .container{
+    width: 100%;
+  }
+  .header{
+    display: flex;
+    background: url("../images/glasses-bg_tablet.png")no-repeat;
+    height: 27rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .head{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: cadetblue;
+    color:white;
+    font-family: Helvetica;
+    font-size: 1rem;
+    height: 3rem;
+    width: 100%;
+  }
+  .logo{
+    height: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+  .head_left img,.head_left h2{
+    display: inline-block;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+  }
+  li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 2rem;
+  }
+  .head_text{
+    background-color:  white;
+    top: 15rem;
+    right: 2rem;
+    position:absolute;
+  }
+  .text_h1{
+    display: block;
+    justify-content: space-around;
+    color: black;
+    font-size: 1.33rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    line-height: 1.2;
+    padding: 0.75rem 4rem;
+  }
+  .imgs{
+    display:flex;
+    justify-content:flex-start;
+    height: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .img1{
+    width:3.5rem;
+    padding-left: 8rem;
+  }
+  .img2,.img3{
+    width:3.5rem;
+    padding-left: 12rem;
+  }
+  .img2 span,.img3 span{
+    padding-left: 3.25rem;
+  }
+  span{
+    display: flex;
+    text-align: center;
+    font-family: Helvetica;
+  }
+  .text{
+    display:flex;
+    justify-content:center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    font-family: Helvetica;
+    font-size: 1rem;
+  }
+  .philosophy{
+    width: 80%;
+    padding-left: 8rem;
+  }
+  .appointments{
+    padding-left: 5%;
+    width: 70%;
+  }
+  h2{
+    display: flex;
+    background-color: cadetblue;
+    width: 10rem;
+    padding: 1.25rem 0.5rem 1rem 0.5rem;
+    color: white;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  p{
+    padding-top: 1rem;
+  }
+
+  .footer{
+    height: 10rem;
+    background-color: azure;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .foot{
+    display: flex;
+    text-align: left;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: Helvetica;
+  }
+  .logo1{
+    height: 1.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 4rem;
+  }
+
+  .head_mobile,.head_right_mobile,.head_left_mobile,.foot_mobile{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:480px){
+html, body{
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+body{
+  width: 100%;
+  height: 100%;
+  line-height: 1.4rem;
+}
+.container{
+  width: 100%;
+}
+.header{
+  display: flex;
+  background: url("../images/glasses-bg_tablet.png")no-repeat;
+  height: 24rem;
+  width: 100%;
+  justify-content: center;
+}
+.head_mobile{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  background-color: cadetblue;
+  color:white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  height: 2.5rem;
+  width: 100%;
+}
+.logo{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.head_left_mobile{
+  display: inline-block;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  padding-right: 2rem;
+}
+.head_text{
+  background-color: white;
+  top: 19rem;
+  position: absolute;
+  width: 100%;
+}
+.text_h1{
+  display:flex;
+  justify-content: center;
+  color: black;
+  font-size: 1.33rem;
+  font-weight: bold;
+  font-family: Helvetica;
+  line-height: 1;
+  padding: 1rem;
+}
+
+.imgs{
+  display: grid;
+  justify-content:center;
+  padding-top: 3.77rem;
+
+}
+.img1,.img2{
+  padding-bottom: 1.54rem;
+}
+
+span{
+  display: grid;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 0.77rem;
+}
+.text{
+  display:block;
+  justify-content:center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  font-family: Helvetica;
+  font-size: 0.77rem;
+}
+.philosophy,.appointments{
+  width: 100%;
+
+}
+.philosophy{
+  padding-top: 3.77rem;
+  padding-bottom: 4rem;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+  width: 100%;
+  padding: 0.5rem;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+p{
+  padding-top: 1rem;
+}
+
+.footer{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+.logo1{
+  height: 1.5rem;
+
+}
+.head,.head_right,.head_left,.foot{
+  display: none;
+}
+}
